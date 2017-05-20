@@ -38,5 +38,5 @@
 * [唐延昭](./06.tangyanzhao/index.md)
 * [鲍宇](./07.baoyu/index.md)
 * [金定文](./08.jindingwen/index.md)
-* [王磊](./09.Richard.wang/index.md)
+* [王磊](./09.Richard.Wang/index.md)
 
