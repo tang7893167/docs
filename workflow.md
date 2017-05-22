@@ -11,8 +11,7 @@
 ## 分支规划
 采用git remote add命令给自己本地的开发repo添加分支，我们用一下约定来处理分支的名字
 * origin - 直接指向项目的repo
-* dev_name - 指向自己fork出来的repo例如我的叫cooloney
-* reaction - 指向reaction 原版的repo
+* dev_name - 指向自己fork出来的repo例如我的叫wangleihd
 
 ## 具体操作
 ### Fork 项目repo到自己Github账户（只需要setup一次）
