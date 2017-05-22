@@ -33,14 +33,15 @@ git remote add develop https://github.com/wangleihd/kuaida.git
 
 ### 开发流程（每次开发都要运行）
 ```
-git fetch origin
-git checkout -b development origin/development (create a new branch for development)
-git reset --hard origin/development (reset the local branch to latest origin development branch)
-git rebase origin/development (rebase local change onto origin development branch)
+git fetch develop
+git checkout -b develop develop/master (create a new branch for development)
+git reset --hard develop/master (reset the local branch to latest origin development branch)
+git rebase develop/mastger (rebase local change onto origin development branch)
 do some work ...
 git commit changes
-git push --force cooloney development
+git push --force develop develop
 ```
+
 
 ### 运行测试（第一次运行时需要下载相关的package）
 ```
@@ -79,13 +80,13 @@ reaction	git@github.com:reactioncommerce/reaction-core.git (push)
 
 ### 取出最新的代码开发
 ```
-git fetch origin
-git checkout -b development origin/development (create a new branch for development)
-git reset --hard origin/development (reset the local branch to latest origin development branch)
-git rebase origin/development (rebase local change onto origin development branch)
+git fetch develop
+git checkout -b develop develop/master (create a new branch for development)
+git reset --hard develop/master (reset the local branch to latest origin development branch)
+git rebase develop/mastger (rebase local change onto origin development branch)
 do some work ...
 git commit changes
-git push --force cooloney development
+git push --force develop develop
 ```
 
 ### 发送pull request（每次push都需要）
