@@ -92,3 +92,44 @@ git push --force develop develop
 ### 发送pull request（每次push都需要）
 * 登录自己repo的Github主页
 * 点击pull request
+
+
+
+# GIT 常用命令
+
+```
+git branch -av          // 查看分支信息                                                                           
+git log                 // 查看提交信息
+git status              // 查看当前文件和目录的状态, 是否修改, 是否删除等
+
+git fetch updateteam    // 同步远程kuaida/kda.git信息到本地来
+git status 
+git branch -av
+git checkout update     // 切换到update分支
+git pull                // 从服务器将把更新的代码下载到本地仓库
+git status 
+git branch -av
+git checkout -b dev origin/master  // 创建dev分支, 以origin/master为基础
+git branch -av
+git merge update        // 将update分支合并到dev分支上.
+git branch -av
+git checkout master
+git branch -av
+git log
+git reset --soft c24b1f // 取消当前1~N次提交, 并保留修改文件.
+git status 
+git diff
+git stash save abc      // 保存修文件. 入栈
+git status 
+git branch -av  
+git checkout dev
+git branch -av
+git stash pop stash@{0}  // 释放修改的文件. 出栈
+git diff
+git status
+git add .
+git status
+git commit -a            // 提交
+npm install && npm start // 测试
+git branch -av 
+```
